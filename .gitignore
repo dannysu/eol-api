@@ -1,3 +1,4 @@
 *.sqlite3
 vendor/
 Gemfile.lock
+cache/
