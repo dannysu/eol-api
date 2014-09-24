@@ -6,7 +6,7 @@ require 'nokogiri'
 require 'digest'
 
 get '/api' do
-  content_type :json
+  content_type 'application/javascript'
   url = 'http://eol.org/search?commit=Filter&type%5B%5D=Image&q='
 
   result = Hash.new
