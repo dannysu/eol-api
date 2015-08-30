@@ -4,7 +4,7 @@ require 'json'
 require 'sqlite3'
 
 get '/fav' do
-  content_type :json
+  content_type 'application/javascript'
 
   begin
     db = SQLite3::Database.new('db/favourites.sqlite3')
